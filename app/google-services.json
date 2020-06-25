@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "398401084754",
+    "firebase_url": "https://betago-7103c.firebaseio.com",
+    "project_id": "betago-7103c",
+    "storage_bucket": "betago-7103c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398401084754:android:5e80c40872517395b8ee8b",
+        "android_client_info": {
+          "package_name": "com.example.betago"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398401084754-vn5006d7bnkh42j0l1nv7dbt6j343869.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzNcC4CO7pyqvXx8-hVTlVlNykdDaj3uE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398401084754-vn5006d7bnkh42j0l1nv7dbt6j343869.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
