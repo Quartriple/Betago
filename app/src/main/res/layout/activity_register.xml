@@ -55,6 +55,14 @@
             android:id="@+id/btn_register"
             android:layout_marginTop="50dp"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이메일 인증"
+            android:id="@+id/btn_email"
+            android:layout_marginTop="25dp"/>
+
+
 
     </LinearLayout>
 

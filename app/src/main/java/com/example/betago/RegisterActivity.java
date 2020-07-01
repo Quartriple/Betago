@@ -1,4 +1,4 @@
- package com.example.betago;
+package com.example.betago;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,7 +23,7 @@ import com.rengwuxian.materialedittext.MaterialEditText;
 
 import java.util.HashMap;
 
- public class RegisterActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     MaterialEditText username, email, password;
     Button btn_register;

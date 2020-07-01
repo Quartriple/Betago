@@ -14,7 +14,21 @@ public class StartActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
 
+    FirebaseUser firebaseUser;
     Button btn_login, btn_register;
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        firebaseUser = mAuth.getCurrentUser();
+        // 로그인 됐는지 확인
+       /* if(firebaseUser != null){
+            Intent intent = new Intent(StartActivity.this, MainActivity.class);
+                startActivity(intent);
+            finish();
+        }*/
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +36,7 @@ public class StartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
 
         mAuth = FirebaseAuth.getInstance();
+
 
         btn_login = findViewById(R.id.btn_login);
         btn_register = findViewById(R.id.btn_register);
@@ -39,6 +54,4 @@ public class StartActivity extends AppCompatActivity {
             }
         });
     }
-
-
 }
